@@ -1,8 +1,6 @@
 import React from 'react';
 import { SignUp } from '@clerk/nextjs';
 
-const JournalSignUp = () => {
-  return <SignUp />;
+export default function JournalSignUp () {
+  return <SignUp signInUrl='sign-in'/>;
 };
-
-export default JournalSignUp;

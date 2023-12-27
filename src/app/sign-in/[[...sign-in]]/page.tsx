@@ -1,6 +1,5 @@
-import React from 'react';
 import { SignIn } from '@clerk/nextjs';
 
-export default function JournalSignIn() {
-  return <SignIn />;
+export default function SigninPage() {
+  return <SignIn signUpUrl="/sign-up" />;
 }
